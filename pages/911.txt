@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>About Sex</title>
+    <link href="https://cdn.discordapp.com/attachments/779655187584778260/834303993773031464/Logo_NadeemSF.jpg size=1024" rel="shortcut icon" type="image/x-icon"> <link href="icons/icon.png" rel="apple-touch-icon">
+ </head>
+<body>
+<style>
+.sex {
+color:lightblue;
+}
+
+.Logo {
+padding-top: 10px;
+padding-right: 10px;
+padding-left: 10px;
+padding-bottom: 10px;
+background-color: #323232;
+margin-right: 1170px;
+}
+
+.fullscreenBVideo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.backgroundVideo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+@media (max-width: 767px) {
+
+    .backgroundVideo {
+        display: none;
+    }
+}
+.color {
+color: white;
+}
+</style>
+
+<div class="fullscreenBVideo">
+    <video autoplay muted loop class="backgroundVideo">
+        <source src="https://video.wixstatic.com/video/5e4eaa_cbfd3cc882b44ca3907cf3ce23b1a791/1080p/mp4/file.mp4" type="video/mp4">
+    </video>
+</div>
+
+    <div>
+    <p class="color">Here we will talk about everything sex related</p>
+    <p class="color">Sex is very simple and at the same time very complicated but here we like the simple which is basicly sticking ur pp in a woman's cunt</p>
+    </div>
+    <div>
+        <h1 class="sex color">S</h1>
+        <h3 class="color">Advantages:</h3>
+        <p class="pros color">Sex is very important to the body it has a alot of advantages.</p>
+    </div>
+    <div>
+    <ol>
+        <li class="color">Gives Pleasure</li>
+        <li class="color">Good For Moving The Body</li>
+        <li class="color">lowering blood pressure</li>
+        <li class="color">strengthening muscles</li>
+        <li class="color">increasing heart health</li>
+        <li class="color">and my favorite burning calories</li>
+    </ol>
+    <h3 class="color">DisAdvatages</h3>
+    <p class="cons color">And ofcourse there is disadvatages but im too lazy to find em</p>
+    </div>
+    <div>
+    <p class="rape color">Because we live i na shity world raping is a thing</p>
+        <h1 class="color">Raping</h1>
+        <p class="color">Raping is bad for alot of reasons that we'll talk about now:</p>
+    <ol>
+        <li class="color">It's not a religious thing to do</li>
+        <li class="color">its not ethical</li>
+        <li class="color">and the most important reason is that the woman is having sex without her will</li>
+    </ol>
+    <img class="Logo color" src="https://cdn.discordapp.com/attachments/779655187584778260/834312088662573066/Free_Sample_By_Wix_3.jpg"width="50" hight="50"
+    </div>
+</body.
+</html>
