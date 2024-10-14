@@ -44,21 +44,46 @@ color: silver;
 }
 .table{
 background-color:  #ccefff;
-border: 2px solid white;
+border: 1px solid white;
 text-align: center;
 font-size: 50px;
+border-radius: 65px;
+width: 500px;
+height: 150px;
 }
-table{
-width: 600px;
-height: 500px;
+.table2, th, td{
+border: 1px solid black;
+font-size: 12px;
+border-radius: 10px;
+empty-cells: show;
+width: 300px;
+height: 150px;
+
+}
+
+.rounded {
+border-radius: 65px;
 }
 .left{
 text-align: left;
 color: black;
 }
+.bg{
+background-color: #a8c9eb;
+}
+th{
+text-align: left;
+}
+th,td{
+width: 30px;
+height: 50px;
+}
+.blu{
+background-color:#9bc7f3;
+}
 </style>
 <body class="body">
-<a href="file:///C:/Users/math.lab56/Desktop/html/html.html" class="font2 left">GO BACK<a>
+<a href="C:\Users\math.lab73\Desktop\html\html.html" class="font2 left">GO BACK<a>
 <h1 class="middle"> COMP311-Ineternet Programming and Web Design </h1>
 <h3 class="middle red">Introduction to Course</h3>
 <hr>
@@ -66,7 +91,13 @@ color: black;
 <br>
 <br>
 <br>
-<center><table class="table">
+<center><table class="table rounded" border="1">
+<caption>The Music Industry😍</caption>
+<colgroup>
+<col/>
+<col span"2" class:"bg"/>
+
+</colgroup>
 <tr>
 <th class="table">Name</th>
 <th class="table">Surname</th>
@@ -83,5 +114,28 @@ color: black;
 <td class="table">34</td>
 </tr>
 </table></center>
+
+<center><table class="table2"
+>
+ <colgroup>
+    <col />
+    <col span="1" class="blu" />
+    <col />
+    <col span="1" class="blu" />
+  </colgroup>
+<tr><th>First name</th><td>  &nbsp;  󠁪</td><td>󠁪 </td><td>󠁪 </td></tr>
+<tr><th>Surname</th><td> </td><td> </td><td> </td></tr>
+<tr><th>Major</th><td> </td><td> </td><td> </td></tr>
+<tr><th>Nationality</th><td> </td><td> </td><td> </td></tr>
+</table></center>
+<p>my fav artists</p>
+<ul>
+<li>Laufey</li>
+<li>Mitski</li>
+<li>Taylor Swift</li>
+<li>Ariana Grande</li>
+<li>Madison Beer</li>
+<li>Melanie Martinez</li>
+</ul>
 </body>
 </html>
