@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<style>
+body{
+background-color:#e6f2ff;
+}
+h1{
+color:#800000;
+background-color: #f0f5f5;
+}
+h2{
+color:#d1d1e0;
+}
+.mid{
+text-align:center;
+}
+</style>
+</head>
+<body>
+<h1 class="mid">Comp311-Programming Language</h1>
+<h2 class="mid">Lab4-Forms</h3>
+<hr>
+<h4> <b>Student Registration</b></h4>
+<p>Please fill out this form to register for your department</p>
+<hr>
+<form action="/action_page.php" id="country">
+  <label for="fname">Name:</label>
+  <input type="text" id="fname" name="fname">
+<br>
+  <label for="lname">Surname:</label>
+  <input type="text" id="lname" name="lname">
+<br>
+  <label for="birthday">Birthdate:</label>
+  <input type="date" id="birthday" name="birthday">
+<br>
+<label for="country">Your country Region:</label>
+<select name="country" id="country" form="country">
+  <option value="ME">Middle East</option>
+  <option value="AF">Africa</option>
+  <option value="AS">Asia</option>
+</select>
+<hr>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" placeholder="Example@gmail.com" required>
+<br>
+  <label for="PN">Phone Number:</label>
+  <input type="number" id="PN" name="PN" maxlength="10" required>
+<br>
+  <label for="AC">Acomodation:</label>
+  <input type="text" id="AC" name="AC" required>
+<hr>
+<h4> <b>Major Selection</b></h4>
+<h5> <b>Kindly choose your number of choices, then select your choices:</b></h5>
+  <label for="CNum">Number of Choices (between 1 & 5):</label>
+  <input type="number" id="CNum" name="Cnum" min="1" max="5">
+<br>
+  <input type="checkbox" id="MJ1" name="MJ1" value="Mathematics">
+  <label for="MJ1"> Mathematics</label><br>
+  <input type="checkbox" id="MJ2" name="MJ2" value="Computer Science">
+  <label for="MJ2">Computer Science</label><br>
+  <input type="checkbox" id="MJ3" name="MJ3" value="Physics">
+  <label for="MJ3">Physics</label><br>
+  <input type="checkbox" id="MJ4" name="MJ4" value="Genectics and Molecular Biology">
+  <label for="MJ4">Genectics and Molecular Biology</label><br>
+  <input type="checkbox" id="MJ5" name="MJ5" value="Psychology">
+  <label for="MJ5">Psychology</label>
+<hr>
+  <label for="myfile">Enter the Required Documents:</label>
+  <input type="file" id="myfile" name="myfile" multiple>
+<hr>
+  <input type="image" src="submit.png" width="140" height="100" value="Submit">
+
+</form>
+</body>
+</html>
